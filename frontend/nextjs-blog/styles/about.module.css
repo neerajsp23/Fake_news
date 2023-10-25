@@ -1,0 +1,95 @@
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.nav{
+  background-color: rgb(184, 200, 194);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  left: 0;
+  text-decoration: none;
+  background-color: rgb(150, 160, 166);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 60px;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.navLink {
+  text-decoration: none !important;
+  color: white;
+}
+
+.innerform{
+  border-color:black;
+  border-width: 3px;
+}
+
+.mainheading{
+  display: inline-flex;
+  font-family: "Impact",sans-serif;
+  background: url("https://idsb.tmgrup.com.tr/ly/uploads/images/2022/07/12/217928.jpg");
+  font-size: 8rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #5b728a54;
+  animation: move 30s linear infinite;
+  letter-spacing: .3rem;
+  text-align: center;
+}
+@keyframes move{
+  from {background-position: 0 80%;}
+  to {background-position: 100% 50%;}
+}

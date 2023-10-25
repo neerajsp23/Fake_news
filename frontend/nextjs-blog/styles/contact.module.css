@@ -1,0 +1,101 @@
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images4.alphacoders.com/126/thumbbig-1265647.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+  color: #434242;
+}
+
+#t1{
+  margin-top: 100px;
+}
+
+
+.description {
+  line-height: 1.5;
+  font-size: 26px;
+}
+
+.nav{
+  background-color: rgb(184, 200, 194);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  left: 0;
+  text-decoration: none;
+  background-color: #6D5D6E;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 60px;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.navLink {
+  text-decoration: none !important;
+  color: white;
+}
+
+.contacticons{
+  width: 100%;
+}
+
+.contacticons ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left : 50%;
+  transform: translate(-50%,-50%);
+}
+
+.contacticons ul li{
+  list-style: none;
+}
